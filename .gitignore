@@ -1,0 +1,26 @@
+# --- C++ ---
+*
+!*/
+!*.cpp
+!*.hpp
+!*.h
+!*.hh
+!*.hpp
+!*.c
+!*.y
+!*.l
+!*.scm
+!*.sls
+!Makefile
+!.gitignore
+!*.el
+
+# --- Guile/Scheme ---
+*.go        # File compilati di Guile (fondamentale!)
+*~          # File di backup di Emacs
+\#*\#       # File temporanei di Emacs
+
+# --- IDE/OS ---
+.DS_Store
+.projectile
+
